@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px){
+  h1 {
+    font-size: 1.5rem;
+  }
+  .sec-wrapper {
+    padding: 5px;
+  }
+  .menu {
+    min-width: 80%;
+  }
+}
+
+button {
+  /* border-radius: 15px; */
+  font-size: 15px;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkgrey;
+  color: white;
+  cursor:pointer
+}
+
+h1{
+  align-self: center;
+  margin-left: 3%;
+}
+
+p{
+  font-weight: bold;
+}
+
+a{
+  font-weight: bold;
+  color:black;
+}
+
+b{
+  font-size: large;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select {
+  font-size: 17px;
+}
+
+input {
+  width: 300px;
+  font-size: 17px;
+}
+
+textarea {
+  font-size: 17px;
+  width: 300px;;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #0055a2;
+  color: white;
+  border-bottom: 5px solid;
+  border-color: orange;
+}
+
+.navbar button {
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #0055a2;
+  color: white;
+}
+
+.navbarButtons{
+  margin-left: auto;
+  align-self: center;
+  padding: 10px;
+}
+
+.wrapper {
+  background-color: rgb(220, 220, 220);
+  height:100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("/public/main_bg.jpg") center center;
+  opacity: .3;
+  width: 100%;
+  height: 100%;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.search-bar {
+  margin-top: 20px;
+  margin-left: 3%;
+}
+
+.search-bar input[type=text] {
+  width: 40%;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.search-bar button {
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 0;
+}
+
+.item-list {
+  margin-left: 3%;
+  margin-top: 15px;
+}
+
+
+.item {
+  margin: 15px 0px;
+  font-size: 20px;
+}
+
+
+.main-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.type-selector {
+  margin-left: 30%;
+}
+
+.section-shift {
+  margin-top: 1%;
+  margin-left: 3%
+}
+
+.small-indent{
+  margin-left: 10px;
+}
+
+.userInput {
+  display: flex;
+  margin-left: 3%;
+  margin-top: 1%;
+  flex-direction: column;
+}
+
+.sec-wrapper {
+  margin-top: 2%;
+}
+
+.menu {
+  max-width: 25%;
+}
+
+datalist{
+  display: inline;
+}
+
+.alert-message{
+  color: red
+}
